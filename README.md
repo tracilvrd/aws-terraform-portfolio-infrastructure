@@ -77,6 +77,7 @@ terraform apply
 * How AWS permissions affect infrastructure deployment
 * How to structure reusable cloud infrastructure code
 
+
 ## 📈 Future Improvements
 * Remote state backend using S3 + DynamoDB locking
 * AWS CloudFront integration for CDN
