@@ -79,7 +79,6 @@ terraform apply
 
 ## 📈 Future Improvements
 * Remote state backend using S3 + DynamoDB locking
-* CI/CD pipeline with GitHub Actions
 * AWS CloudFront integration for CDN
 * Route 53 custom domain setup
 * IAM least-privilege role refinement
@@ -88,7 +87,9 @@ terraform apply
 
 This project demonstrates the ability to:
 
-Design, provision, and manage real AWS infrastructure using Terraform while integrating existing cloud resources into a scalable Infrastructure-as-Code workflow.
+1. Design, provision, and manage real AWS infrastructure using Terraform while integrating existing cloud resources into a scalable Infrastructure-as-Code workflow.
+
+2. Implement CI/CD pipeline using GitHub Actions to automatically validate and plan Terraform infrastructure changes for AWS resources.
 
 ## Author
 Ese Daniel
